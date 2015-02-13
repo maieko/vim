@@ -43,7 +43,6 @@ NeoBundle 'vim-scripts/DeleteTrailingWhitespace'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'janko-m/vim-test'
-NeoBundle 'vim-scripts/gitignore'
 NeoBundle 'rking/pry-de', {'rtp': 'vim/'}
 NeoBundle 'tpope/vim-surround'
 
