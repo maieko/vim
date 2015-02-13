@@ -19,6 +19,8 @@ set noswapfile
 syntax enable
 set autoread
 set shell=/bin/sh
+set backupdir=~/tmp,/tmp
+set undodir=~/.vim/.tmp,~/tmp,~/.tmp,/tmp
 
 "  ---------------------------------------------------------------------------
 "  UI
