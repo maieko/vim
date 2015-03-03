@@ -99,4 +99,4 @@ if !v:shell_error && s:uname == "Linux"
   set t_Co=256
 endif
 set background=dark
-colorscheme solarized
+colorscheme jellybeans
