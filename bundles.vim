@@ -45,6 +45,7 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'janko-m/vim-test'
 NeoBundle 'rking/pry-de', {'rtp': 'vim/'}
 NeoBundle 'tpope/vim-surround'
+NeoBundle 'derekwyatt/vim-scala'
 
 if executable('ag')
   NeoBundle 'rking/ag.vim'
