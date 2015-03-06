@@ -1,4 +1,4 @@
-My vim-config
+onfig
 ==============
 
 I forked this Repo from [crahles]. Thanks for the great work.
@@ -15,3 +15,4 @@ $ git clone https://github.com/CrusaderW/vim.git ~/.vim && ~/.vim/bundle/neobund
 [crahles]: https://github.com/crahles/vim
 [vim-scala]: https://github.com/derekwyatt/vim-scala
 [sbt-vim]: https://github.com/ktvoelker/sbt-vim
+
