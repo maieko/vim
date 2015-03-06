@@ -1,4 +1,4 @@
-onfig
+My VIM-Config
 ==============
 
 I forked this Repo from [crahles]. Thanks for the great work.
