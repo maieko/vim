@@ -84,6 +84,7 @@ endif
 " Switch between buffers
 noremap <tab> :bn<CR>
 noremap <S-tab> :bp<CR>
+vnoremap <C-c> "+y
 
 "  ---------------------------------------------------------------------------
 "  Plugins
