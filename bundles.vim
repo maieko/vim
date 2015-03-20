@@ -1,27 +1,27 @@
 " Note: Skip initialization for vim-tiny or vim-small.
- if !1 | finish | endif
+if !1 | finish | endif
 
- if has('vim_starting')
-   if &compatible
-     set nocompatible               " Be iMproved
-   endif
-
-   " Required:
-   set runtimepath+=~/.vim/bundle/neobundle.vim/
+if has('vim_starting')
+ if &compatible
+   set nocompatible               " Be iMproved
  endif
 
  " Required:
- call neobundle#begin(expand('~/.vim/bundle/'))
+ set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
 
- " Let NeoBundle manage NeoBundle
- " Required:
- NeoBundleFetch 'Shougo/neobundle.vim'
+" Required:
+call neobundle#begin(expand('~/.vim/bundle/'))
 
- " My Bundles here:
- " Refer to |:NeoBundle-examples|.
- " Note: You don't set neobundle setting in .gvimrc!
+" Let NeoBundle manage NeoBundle
+" Required:
+NeoBundleFetch 'Shougo/neobundle.vim'
 
-  NeoBundle 'Shougo/vimproc.vim', {
+" My Bundles here:
+" Refer to |:NeoBundle-examples|.
+" Note: You don't set neobundle setting in .gvimrc!
+
+NeoBundle 'Shougo/vimproc.vim', {
 \ 'build' : {
 \     'windows' : 'tools\\update-dll-mingw',
 \     'cygwin' : 'make -f make_cygwin.mak',
@@ -37,19 +37,16 @@ NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'Shougo/vimshell.vim'
-NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'vim-scripts/DeleteTrailingWhitespace'
 NeoBundle 'scrooloose/syntastic'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'janko-m/vim-test'
 NeoBundle 'rking/pry-de', {'rtp': 'vim/'}
 NeoBundle 'tpope/vim-surround'
-"Plugins for Scala
+NeoBundle 'dag/vim-fish'
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'ktvoelker/sbt-vim'
-"Pligins for Crystal
 NeoBundle 'rhysd/vim-crystal'
+
 
 
 if executable('ag')
@@ -61,14 +58,14 @@ elseif executable('ack')
   NeoBundle 'mileszs/ack.vim'
 endif
 
-NeoBundle 'fatih/vim-go'
-NeoBundle 'crahles/vim-gometalinter.vim'
+"NeoBundle 'fatih/vim-go'
+"NeoBundle 'crahles/vim-gometalinter.vim'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-bundler'
 NeoBundle 'tpope/vim-rails'
-NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'cakebaker/scss-syntax.vim'
-NeoBundle 'tpope/vim-haml'
+"NeoBundle 'kchmck/vim-coffee-script'
+"NeoBundle 'cakebaker/scss-syntax.vim'
+"NeoBundle 'tpope/vim-haml'
 NeoBundle 'evanmiller/nginx-vim-syntax'
 
  call neobundle#end()
