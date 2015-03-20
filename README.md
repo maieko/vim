@@ -12,13 +12,15 @@ Enabled "copy-to-clipboard" by mouse-select and "CTRL+C".
 test if ":echo has('clipboard')" in vim return 0, else install vim-gtk package.
 see [stackoverflow_vim-copy'n'paste] for more information.
 
-Install (not tested yet)
+Install
 -------------
 ```
 $ git clone https://github.com/CrusaderW/vim.git ~/.vim && ~/.vim/bundle/neobundle.vim/bin/neoinstall
 ```
+I'd also recommend to install [Powerline-Font] and set it as Terminal-Font.
 [jellybeans.vim]: http://blog.infinitered.com/entries/show/6
 [crahles]: https://github.com/crahles/vim
 [vim-scala]: https://github.com/derekwyatt/vim-scala
 [sbt-vim]: https://github.com/ktvoelker/sbt-vim
 [stackoverflow_vim-copy'n'paste]: http://stackoverflow.com/questions/11489428/how-to-make-vim-paste-from-and-copy-to-systems-clipboard
+[Powerline-Font]:  https://github.com/powerline/fonts
