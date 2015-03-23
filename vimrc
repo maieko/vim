@@ -43,7 +43,7 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set number
-set norelativenumber
+set relativenumber
 set undofile
 
 " Auto adjust window sizes when they become current
@@ -85,6 +85,20 @@ endif
 noremap <tab> :bn<CR>
 noremap <S-tab> :bp<CR>
 vnoremap <C-c> "+y
+
+
+
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+
+nnoremap <C-n> :call NumberToggle()<cr>
+
+
 
 "  ---------------------------------------------------------------------------
 "  Plugins
