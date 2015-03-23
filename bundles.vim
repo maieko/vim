@@ -33,9 +33,9 @@ NeoBundle 'Shougo/vimproc.vim', {
 
 NeoBundle 'bling/vim-airline'
 NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'Shougo/neocomplete.vim'
-NeoBundle 'Shougo/neosnippet.vim'
-NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'SirVer/ultisnips'
+NeoBundle 'honza/vim-snippets'
+NeoBundle 'Valloric/YouCompleteMe'
 NeoBundle 'Shougo/vimshell.vim'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'vim-scripts/DeleteTrailingWhitespace'
