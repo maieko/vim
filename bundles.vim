@@ -39,6 +39,7 @@ NeoBundle 'honza/vim-snippets'
 NeoBundle 'Valloric/YouCompleteMe'
 NeoBundle 'Shougo/vimshell.vim'
 NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'Raimondi/delimitMate'
 NeoBundle 'vim-scripts/DeleteTrailingWhitespace'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'rking/pry-de', {'rtp': 'vim/'}
