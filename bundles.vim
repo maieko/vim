@@ -33,6 +33,7 @@ NeoBundle 'Shougo/vimproc.vim', {
 
 NeoBundle 'bling/vim-airline'
 NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'ervandew/supertab'
 NeoBundle 'SirVer/ultisnips'
 NeoBundle 'honza/vim-snippets'
 NeoBundle 'Valloric/YouCompleteMe'
@@ -58,14 +59,9 @@ elseif executable('ack')
   NeoBundle 'mileszs/ack.vim'
 endif
 
-"NeoBundle 'fatih/vim-go'
-"NeoBundle 'crahles/vim-gometalinter.vim'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-bundler'
 NeoBundle 'tpope/vim-rails'
-"NeoBundle 'kchmck/vim-coffee-script'
-"NeoBundle 'cakebaker/scss-syntax.vim'
-"NeoBundle 'tpope/vim-haml'
 NeoBundle 'evanmiller/nginx-vim-syntax'
 
  call neobundle#end()
