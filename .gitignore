@@ -3,6 +3,9 @@
 ### Bundled VIM Plugins ###
 bundle/
 
+### Spellchecking Folder ###
+spell/
+
 ### Linux ###
 *~
 
