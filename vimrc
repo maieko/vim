@@ -113,3 +113,12 @@ if !v:shell_error && s:uname == "Linux"
 endif
 set background=dark
 colorscheme jellybeans
+
+"  ---------------------------------------------------------------------------
+"  Spellchecking
+"  ---------------------------------------------------------------------------
+au BufNewFile,BufRead,BufEnter   *.tex     setlocal spell    spelllang=en_US
+au BufNewFile,BufRead,BufEnter   *.wiki    setlocal spell    spelllang=en_US
+au BufNewFile,BufRead,BufEnter   *.md      setlocal spell    spelllang=en_US
+au BufNewFile,BufRead,BufEnter   *.txt     setlocal spell    spelllang=en_US
+au BufNewFile,BufRead,BufEnter   README    setlocal spell    spelllang=en_us
