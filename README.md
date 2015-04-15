@@ -22,12 +22,12 @@ Before proceeding make sure the following packages are installed:
 BASH
 --------------
 ```
-$ git clone https://github.com/CrusaderW/vim.git ~/.vim && make ~/.vim/bundle/vimproc.vim/ && ~/.vim/bundle/neobundle.vim/bin/neoinstall && ~/.vim/bundle/YouCompleteMe/install.sh
+$ git clone https://github.com/CrusaderW/vim.git ~/.vim && make ~/.vim/bundle/vimproc.vim/ && ~/.vim/bundle/neobundle.vim/bin/neoinstall && cd ~/.vim/bundle/YouCompleteMe/ && git submodule update --init --recursive && ./install.sh
 ```
 FISH
 ---------------
 ```
-$ git clone https://github.com/CrusaderW/vim.git ~/.vim; and make ~/.vim/bundle/vimproc.vim/; and ~/.vim/bundle/neobundle.vim/bin/neoinstall; and ~/.vim/bundle/YouCompleteMe/install.sh
+$ git clone https://github.com/CrusaderW/vim.git ~/.vim; and make ~/.vim/bundle/vimproc.vim/; and ~/.vim/bundle/neobundle.vim/bin/neoinstall; and cd ~/.vim/bundle/YouCompleteMe/; and git submodule update --init --recursive; and ./install.sh
 ```
 I'd also recommend to install [Powerline-Font] and set it as Terminal-Font.
 [jellybeans.vim]: http://blog.infinitered.com/entries/show/6
