@@ -8,6 +8,8 @@ silent! runtime bundles.vim
 "  General
 "  ---------------------------------------------------------------------------
 
+syntax on                           " syntax highlighing
+filetype on                          " try to detect filetypes
 filetype plugin indent on
 let mapleader = ","
 let g:mapleader = ","
@@ -103,6 +105,18 @@ vnoremap <C-c> "+y
 "  ---------------------------------------------------------------------------
 
 runtime! plugin_cfg/*.vim
+
+"  ---------------------------------------------------------------------------
+"  Python Config
+"  ---------------------------------------------------------------------------
+"
+augroup vimrc_autocmds
+      autocmd!
+          " highlight characters past column 120
+          autocmd FileType python highlight Excess ctermbg=DarkGrey guibg=Black
+          autocmd FileType python match Excess /\%120v.*/
+          autocmd FileType python set nowrap
+          augroup END
 
 "  ---------------------------------------------------------------------------
 "  Colors
