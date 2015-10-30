@@ -27,7 +27,7 @@ $ git clone https://github.com/CrusaderW/vim.git ~/.vim && make ~/.vim/bundle/vi
 FISH
 ---------------
 ```
-$ git clone https://github.com/CrusaderW/vim.git ~/.vim; and make ~/.vim/bundle/vimproc.vim/; and ~/.vim/bundle/neobundle.vim/bin/neoinstall; and cd ~/.vim/bundle/YouCompleteMe/; and git submodule update --init --recursive; and ./install.sh
+$ git clone https://github.com/CrusaderW/vim.git ~/.vim; and make ~/.vim/bundle/vimproc.vim/; and ~/.vim/bundle/neobundle.vim/bin/neoinstall; and cd ~/.vim/bundle/YouCompleteMe/; and git submodule update --init --recursive; and ./install.py
 ```
 I'd also recommend to install [Powerline-Font] and set it as Terminal-Font.
 [jellybeans.vim]: http://blog.infinitered.com/entries/show/6
