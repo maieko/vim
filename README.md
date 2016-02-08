@@ -18,7 +18,14 @@ Install
 -------------
 The following commands will clone the repository and install neobundle and [YouCompleteMe]
 Before proceeding make sure the following packages are installed: 
+Linux
+--------------
 ``` sudo apt-get install build-essential cmake python-dev ```
+MacOS X
+--------------
+On MacOS X make sure you have Homebrew installed.
+``` brew install cmake ```
+
 BASH
 --------------
 ```
