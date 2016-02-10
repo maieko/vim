@@ -48,7 +48,6 @@ NeoBundle 'rking/pry-de', {'rtp': 'vim/'}
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'dag/vim-fish'
 NeoBundle 'derekwyatt/vim-scala'
-NeoBundle 'ktvoelker/sbt-vim'
 NeoBundle 'rhysd/vim-crystal'
 
 
