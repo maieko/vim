@@ -33,8 +33,6 @@ NeoBundle 'Shougo/vimproc.vim', {
 
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
-/NeoBundle 'kien/ctrlp.vim'
-/Unite replaced my ctrlp due to it's preview functionality
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'ervandew/supertab'
 NeoBundle 'SirVer/ultisnips'
@@ -50,6 +48,8 @@ NeoBundle 'tpope/vim-surround'
 NeoBundle 'dag/vim-fish'
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'rhysd/vim-crystal'
+NeoBundle 'godlygeek/tabular'
+NeoBundle 'plasticboy/vim-markdown'
 
 if executable('ag')
   NeoBundle 'rking/ag.vim'
