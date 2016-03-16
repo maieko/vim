@@ -18,7 +18,19 @@ Install
 -------------
 The following commands will clone the repository and install neobundle and [YouCompleteMe]
 Before proceeding make sure the following packages are installed: 
+  Linux
+-------------
 ``` sudo apt-get install build-essential cmake python-dev ```
+MacOS X
+--------------
+On MacOS X make sure you have Homebrew installed. And install the following packages: 
+
+``` brew install cmake mercurial```
+
+Then install vim:
+
+```brew install macvim --override-system-vim```
+
 BASH
 --------------
 ```
@@ -29,12 +41,12 @@ FISH
 ```
 $ git clone https://github.com/CrusaderW/vim.git ~/.vim; and make ~/.vim/bundle/vimproc.vim/; and ~/.vim/bundle/neobundle.vim/bin/neoinstall; and cd ~/.vim/bundle/YouCompleteMe/; and git submodule update --init --recursive; and ./install.py
 ```
-I'd also recommend to install [Powerline-Font] and set it as Terminal-Font.
+Finally just install the [Powerline-Font] (located in folder
+powerline_font) and set it as Terminal-Font.
 [jellybeans.vim]: http://blog.infinitered.com/entries/show/6
 [crahles]: https://github.com/crahles/vim
 [this Blogpost]: http://bleibinha.us/blog/2013/08/my-vim-setup-for-scala.
 [vim-scala]: https://github.com/derekwyatt/vim-scala
-[sbt-vim]: https://github.com/ktvoelker/sbt-vim
 [stackoverflow_vim-copy'n'paste]: http://stackoverflow.com/questions/11489428/how-to-make-vim-paste-from-and-copy-to-systems-clipboard
 [Powerline-Font]:  https://github.com/powerline/fonts
 [YouCompleteMe]: https://github.com/Valloric/YouCompleteMe

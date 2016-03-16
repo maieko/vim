@@ -31,7 +31,8 @@ NeoBundle 'Shougo/vimproc.vim', {
 \    },
 \ }
 
-NeoBundle 'bling/vim-airline'
+NeoBundle 'vim-airline/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
 /NeoBundle 'kien/ctrlp.vim'
 /Unite replaced my ctrlp due to it's preview functionality
 NeoBundle 'Shougo/unite.vim'
@@ -48,7 +49,6 @@ NeoBundle 'rking/pry-de', {'rtp': 'vim/'}
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'dag/vim-fish'
 NeoBundle 'derekwyatt/vim-scala'
-NeoBundle 'ktvoelker/sbt-vim'
 NeoBundle 'rhysd/vim-crystal'
 
 if executable('ag')
