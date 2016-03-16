@@ -51,8 +51,6 @@ NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'ktvoelker/sbt-vim'
 NeoBundle 'rhysd/vim-crystal'
 
-
-
 if executable('ag')
   NeoBundle 'rking/ag.vim'
 elseif executable('ack-grep')
@@ -62,6 +60,8 @@ elseif executable('ack')
   NeoBundle 'mileszs/ack.vim'
 endif
 
+NeoBundle 'fatih/vim-go'
+NeoBundle 'crahles/vim-gometalinter.vim'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-bundler'
 NeoBundle 'tpope/vim-rails'
